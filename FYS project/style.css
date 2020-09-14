@@ -22,3 +22,7 @@ body {
 .card {
   margin: 20px;
 }
+
+ .list-group-item {
+   background-color: #474B4F !important;
+ }
