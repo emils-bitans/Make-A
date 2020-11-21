@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Profils</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+      h4 {
+    border: 1px solid rgb(191, 192, 192);
+  }
+  </style>
+</head>
+<body>
+  <div class="navbar_container container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div class="logo">
+          <h1>LOGO</h1>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+        <div class="nav_buttons">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Visas Vakances</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Brīvprātīgo darbs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Par mums</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Punktu sistēma</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="jumbotron text-left">
+        <h2>Mans profils</h2>
+      </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-2">
+                
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-default" href="#">Mans profils</button>
+                    <button type="button" class="btn btn-default" href="#">Mainīt datus</button>
+                    <button type="button" class="btn btn-default" href="#">Mani pieteikumi</button>
+                    <button type="button" class="btn btn-default" href="#">Darba pieredze</button>
+                    <button type="button" class="btn btn-default" href="#">Saņemtās vēstules</button>
+                    <button type="button" class="btn btn-default" href="#">Mani punkti</button>
+                  </div>
+
+            </div>
+
+                <div class="col-sm-5">
+                    <h3>Personīgie dati</h3>
+                    <h4>Emīls Bitāns</h4> 
+                    <h4>emils.bitans@gmail.com</h4> 
+                    <h4>26144428</h4> 
+                </div>
+
+                    <div class="col-sm-5">
+                        <img src="http://via.placeholder.com/330x250" />
+                        <button type="button" class="btn btn-default" href="#">Mainīt profila bildi</button>
+                        <button type="button" class="btn btn-default" href="#">Pievienot CV</button>
+                    </div>
+
+    </div>
+        <div class="alert alert-info">
+            <strong>Informācijai!</strong> Šī lapa ir tikai prototips.
+          </div>
+</body>
+</html>
